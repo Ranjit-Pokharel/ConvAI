@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Ignore specific __pycache__ directories
+ArtificialIntelligence/__pycache__/**
+memory/__pycache__/**
+user_input/__pycache__/**
+
+# Do not ignore these specific files
+!.gitignore
+!LICENSE
+!README.md
+!main.py
+
+# Do not ignore the specified directories and their contents
+!ArtificialIntelligence/
+!ArtificialIntelligence/*
+
+!memory/
+!memory/*
+
+!user_input/
+!user_input/*
